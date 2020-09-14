@@ -1,0 +1,442 @@
+
+
+.navbar
+{
+    background-color: rgba(0, 0, 0, .9);
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    padding: 0;
+    z-index: 99999;
+}
+.navbar-nav
+{
+    font-weight: 600;
+}
+.nav-item .nav-link 
+{
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+li:active a
+{
+    color: #DC143C !important;
+    font-weight: 400 !important;
+}
+.nav-item .nav-link:hover
+{
+    color: #DC143C !important;
+    font-weight: 400 !important;
+}
+.menu-btn
+{
+    background-color: #DC143C;
+    color: #fff;
+}
+.menu-btn:hover
+{
+    background-color: transparent !important;
+    color: #DC143C;
+    border: #DC143C 1px solid;
+}
+.slider-btn
+{
+    background-color: #DC143C;
+    color: #fff;
+    transition: all .5s ease-in-out; 
+}
+.slider-btn:hover
+{
+    background-color: rgba(0, 0, 0, .6) !important;
+    color: #DC143C;
+    border: #DC143C 1px solid;
+}
+.slide-btn
+{
+    background-color: #DC143C;
+    color: #fff;
+    transition: all .5s ease-in-out; 
+}
+.slide-btn:hover
+{
+    background-color: rgba(0, 0, 0, .3) !important ;
+    color: #DC143C;
+    border: #DC143C 1px solid;
+}
+.carousel-caption
+{
+    bottom: 35%;
+}
+.txt-left
+{
+    left: 9%;
+}
+
+/*Start Header*/
+.home .overlay
+{
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+}
+.home .carousel-item img
+{
+    opacity: .9;
+}
+.carousel-indicators li 
+{
+    width: 10px;
+    height: 10px;
+    background-color: #DC143C;
+}
+.carousel-control-prev
+{
+    background: #aaa none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 22px;
+    height: 40px;
+    line-height: 35px;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    left: 3rem;
+}
+.carousel-control-next
+{
+    background: #aaa none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 22px;
+    height: 40px;
+    line-height: 35px;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    right: 3rem;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway';
+}
+p{
+    font-family: 'Roboto';
+}
+.about-desc h2{
+    color:#DC143C;
+    font-size:35px;
+    font-weight: 800;
+}
+.social-icon {
+    width: 40%;
+  }
+  @media screen and (max-width:486px){
+    .social-icon{width: 40%;}
+  }
+  .social-icon i {
+    box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .social-icon i:hover {
+    box-shadow: 0 0 0 2px #DC143C;
+    color: #fff;
+    background-color:#DC143C ;
+  }
+
+  .btn{
+      background-color: #DC143C;
+      color: #fff;
+      transition: all .5s;
+  }
+  .btn:hover{
+    background-color: transparent;
+    color: #DC143C;
+    border: #DC143C 1px solid;
+  }
+  
+#service{
+    background-color: #F1F1F1;
+}
+#service h2{
+  font-weight: 700;
+}
+#service h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.main-title{
+    font-size:25px ;
+}
+
+.service-item .icon {
+    position: relative;
+    color: #333;
+    height: 100px;
+    width: 100px;
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: #d6d5d5;
+    line-height: 100px;
+    margin: 25px auto 25px;
+    text-align: center;
+    transition: all .5s;
+
+  }
+
+  .service-item:hover .icon {
+    background-color: #DC143C;
+    color: white;
+  }
+  .icon::after{
+    content: "";
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    padding: 20px;
+    transition: all .5s;
+
+}
+  .service-item:hover .icon:after{
+    border: #DC143C 4px solid; 
+    width: 120px;
+    height: 120px;
+    left: -10px;
+    top: -10px;
+  }
+  .service-item h5 {
+    font-size: 1.5rem;
+  }
+  #service .rounded {
+    border-radius: 20px !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+a{
+  text-decoration: none !important;
+  transition: all 500ms;
+  font-family: 'Raleway', sans-serif;
+}
+/* ================================================================================ */
+.title-h2
+{
+font-weight: 600; 
+text-transform: uppercase;
+}
+.title-p
+{
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 15px;
+}
+/* =================================Review SECTION=============================================== */
+#reviewSection{
+  background-image: url(../image/review-bg.jpg);
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, .5);
+  background-blend-mode: overlay;
+  background-position:center center;
+}
+.reviewBox{
+  background-color: #f3f3f3;
+  position: relative;
+}
+.review-img{
+  position: absolute;
+  left: 50%;
+  top: -20%;
+  transform: translateX(-50%);
+  border: 1px solid #ddd;
+  padding: 2px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.review-img img{
+ border-radius: 50%;
+}
+.review-desc{
+  padding: 7rem 2rem 1rem;
+}
+.review-desc h3{
+  font-size:18px;
+  font-weight: 600;
+  color: #666;
+}
+.review-desc p{
+font-size: 15px;
+font-weight: 400;
+margin: 0;
+}
+.review-desc {
+  color: #f1c30d;
+  font-size: 15px;
+}
+/* =================================Review SECTION=============================================== */
+
+/* =================================OUR BLOG SECTION=============================================== */
+.blog-item{
+  transition: 500ms all;
+}
+.blog-item:hover{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.30);
+}
+.blog-desc{
+  padding:14px;
+}
+.blog-desc h3 a{
+  font-weight: 600;
+  font-size: 16px;
+  color :#4a4a4a;
+}
+.blog-desc h3 a:hover{
+  color:#DC143C;
+}
+.blog-desc p{
+  font-size: 15px;
+  margin: 0;
+  font-weight: 300;
+}
+.blog-info{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.10);
+  padding: 14px 15px;
+  
+}
+.blog-info span{
+  font-size: 14px;
+  color: #757575;
+  margin-right: 10px;
+  font-weight: 400;
+}
+.blog-info  a{
+  color: #757575;
+}
+.blog-info .read-more a{
+  font-weight: 600;
+  
+  font-size: 13px;
+}
+.blog-info  a:hover{
+  color: #DC143C;
+
+}
+@media screen and (min-width:770px) and (max-width:990px){
+  .blog-info  .read-more a
+  {
+      font-size: 12px;
+  }
+  .blog-info span{
+      margin: 5px;
+      font-size: 12px;
+  }
+}
+@media screen and (min-width:991px) and (max-width:1200px){
+  .blog-info  .read-more a{
+      
+      font-size: 12px;
+  }
+  .blog-info span{
+      margin: 5px;
+      font-size: 10px;
+  }
+}
+/* =================================OUR BLOG SECTION=============================================== */
+
+
+/*  Ahmed Essam Css Footer */
+
+.bg-mine{	
+  background-color: #ddd;	
+}	
+
+.bg-mine2{	
+  background-color: #2C2C2C;	
+}	
+
+#lastSection .container i{	
+  font-size:22px ;	
+  border: solid #c9c9c967 1px;	
+  width: 50px;	
+  height: 50px;	
+  display: flex;	
+  justify-content: center;	
+  align-items: center;	
+  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;	
+}	
+
+.info .col-md-4:hover i{	
+  background-color: #CA173B;	
+  border: #CA173B 1px solid;	
+}	
+
+#lastSection input{	
+
+  width: 100%;	
+  height: calc(1.5em + .75rem + 2px);	
+  padding: .375rem .75rem;	
+  color: #495057;	
+  border: none;	
+  border-bottom: 1px solid #ced4da;	
+  outline:none;	
+  transition: border-color .5s ease-in-out;	
+
+}	
+
+#lastSection textArea {	
+  border: none;	
+  border-bottom: 1px solid #ced4da;	
+  outline: none;	
+  transition: border-color .5s ease-in-out;	
+  width: 100%;	
+  color: #495057;	
+}	
+
+.icons i{	
+  padding: 10px;	
+  color: white;	
+  border: solid 1px white;	
+  width: 40px;	
+  height: 40px;	
+  margin: 0px 5px;	
+  border-radius: 2px;	
+  cursor: pointer;	
+  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;	
+}	
+
+.icons i:hover{	
+  background-color: #CA173B;	
+  border: #CA173B 1px solid;
+}	
+
+#copyRight a{	
+  text-decoration:none;	
+  color: #CA173B;	
+}	
+
+.main-info{
+  margin-top: 5%;
+  margin-bottom: -7%;
+}
+
+@media screen and (max-width:992px){
+  .main-info{  margin-bottom:unset;
+  }
+}
+
+
+
+
+
+
+
+
