@@ -9,16 +9,22 @@ $("#lastSection input, #textArea").blur(function () {
 });
 
 //salah function
-$("a[href^='#']").click(function () {
-  let aHerf = $(this).attr("href");
-  let sectionOffset = $(aHerf).offset().top;
-  $("html,body").animate({ scrollTop: sectionOffset }, 1500);
+$("a[href^='#']").click(function(){
+
+    let aHerf = $(this).attr("href");
+
+    let sectionOffset = $(aHerf).offset().top;
+
+    $("html,body").animate( {scrollTop:sectionOffset} , 2000);
+
 });
 
-// mohamed sami funcion
+//Active link
 $("a").click(function () {
   $(this).addClass('active').parent().siblings().find("a").removeClass('active')
 })
+
+
 
 $(window).scroll(function () {
 
