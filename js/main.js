@@ -23,7 +23,7 @@ $("a").click(function () {
 $(window).scroll(function () {
 
   $('section').each(function () {
-       if ($(window).scrollTop()+125 >= $(this).offset().top)
+       if ($(window).scrollTop() = $(this).offset().top)
     {
       let secId ="'"+"#"+$(this).attr('id')+"'";
       $('nav li a').removeClass('active');
